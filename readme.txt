@@ -59,7 +59,7 @@ You cannot pass a value to the response email using this method, to do that, you
 == Changelog ==
 
 = 0.9.7a =
-* WPCF7_Shortcode Has Become Deprecated. Need to be replaced with WPCF7_FormTag.
+* WPCF7_Shortcode has become deprecated. Need to be replaced with WPCF7_FormTag.
 * $tag is no longer an array, but is now an object. Thanks to PascalFuchs (https://wordpress.org/support/users/pascalfuchs/).
 
 = 0.9.7 =
