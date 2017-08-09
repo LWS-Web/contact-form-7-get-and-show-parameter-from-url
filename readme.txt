@@ -1,9 +1,9 @@
 === Plugin Name ===
-Contributors: chuntley
+Contributors: chuntley, mo
 Tags: contact form 7, get parameter, show parameter
 Requires at least: 3.0.1
-Tested up to: 4.1.1
-Stable tag: 0.9.7
+Tested up to: 4.8.1
+Stable tag: 0.9.7a
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -57,6 +57,10 @@ For example, if the URL is http://mysite.com/contact?ordernum=12345, the shortco
 You cannot pass a value to the response email using this method, to do that, you will also have to add a hidden field.
 
 == Changelog ==
+
+= 0.9.7a =
+* WPCF7_Shortcode Has Become Deprecated. Need to be replaced with WPCF7_FormTag.
+* $tag is no longer an array, but is now an object. Thanks to PascalFuchs (https://wordpress.org/support/users/pascalfuchs/).
 
 = 0.9.7 =
 * Fixed XSS issue, thanks Ryan Hellyer (https://geek.hellyer.kiwi/) for the heads up!
